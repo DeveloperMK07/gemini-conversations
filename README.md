@@ -23,27 +23,32 @@ cd python-gemini-chatbot
 ---
 2️⃣ Create a virtual environment (recommended)
 python -m venv venv
-# Activate it
+### Activate it
 source venv/bin/activate    # Linux / Mac
 venv\Scripts\activate       # Windows
+
 ---
 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 ---
 4️⃣ Set up .env file
-
+```bash
 Create a .env file in the root folder and add your Gemini API key:
 
 GEMINI_API_KEY=your_api_key_here
-
+```
 
 👉 Get your free key from Google AI Studio
 .
 ---
 5️⃣ Run the chatbot
+```bash
 python main.py
-
+```
 🖥️ Example Run
+```bash
 Chatbot ready! Type 'quit' to exit.
 
 You: Hello
@@ -51,6 +56,7 @@ Chatbot: Hi there! How can I help you today?
 
 You: quit
 Chatbot: Goodbye!
+```
 ---
 ⚠️ Notes
 
