@@ -19,7 +19,7 @@ This project demonstrates how to build a chatbot that chats with users using Gem
 ```bash
 git clone https://github.com/your-username/python-gemini-chatbot.git
 cd python-gemini-chatbot
-
+```
 
 2️⃣ Create a virtual environment (recommended)
 python -m venv venv
