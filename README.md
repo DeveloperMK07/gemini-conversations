@@ -1,18 +1,25 @@
-# 🤖 Python Chatbot using Gemini API A simple
-**command-line chatbot** built in Python using **Google Gemini API**. 
-This project demonstrates how to build a chatbot that chats with users using Gemini's **gemini-1.5-flash** model. 
---- ## 
-🚀 Features - 
-💬 Interactive chat in terminal - 
-🔐 Secure API key handling with .env - 
-⚡ Powered by **Gemini API** - 
-🐍 Simple Python implementation 
---- 
-## 🛠️ Setup Instructions ### 
-1️⃣ Clone the repository
-bash
+# 🤖 Python Chatbot using Gemini API
+
+A simple **command-line chatbot** built in Python using **Google Gemini API**.  
+This project demonstrates how to build a chatbot that chats with users using Gemini's **`gemini-1.5-flash`** model.
+
+---
+
+## 🚀 Features
+- 💬 Interactive chat directly in the terminal  
+- 🔐 Secure API key handling via `.env`  
+- ⚡ Powered by **Gemini API**  
+- 🐍 Lightweight Python implementation  
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/python-gemini-chatbot.git
 cd python-gemini-chatbot
+
 
 2️⃣ Create a virtual environment (recommended)
 python -m venv venv
