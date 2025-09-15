@@ -24,9 +24,10 @@ cd python-gemini-chatbot
 2️⃣ Create a virtual environment (recommended)
 python -m venv venv
 ### Activate it
+```bash
 source venv/bin/activate    # Linux / Mac
 venv\Scripts\activate       # Windows
-
+```
 ---
 3️⃣ Install dependencies
 ```bash
