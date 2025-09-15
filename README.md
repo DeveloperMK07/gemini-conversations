@@ -17,19 +17,19 @@ This project demonstrates how to build a chatbot that chats with users using Gem
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/python-gemini-chatbot.git
+git clone https://github.com/DeveloperMK07/gemini-conversations
 cd python-gemini-chatbot
 ```
-
+---
 2️⃣ Create a virtual environment (recommended)
 python -m venv venv
 # Activate it
 source venv/bin/activate    # Linux / Mac
 venv\Scripts\activate       # Windows
-
+---
 3️⃣ Install dependencies
 pip install -r requirements.txt
-
+---
 4️⃣ Set up .env file
 
 Create a .env file in the root folder and add your Gemini API key:
@@ -39,7 +39,7 @@ GEMINI_API_KEY=your_api_key_here
 
 👉 Get your free key from Google AI Studio
 .
-
+---
 5️⃣ Run the chatbot
 python main.py
 
@@ -51,7 +51,7 @@ Chatbot: Hi there! How can I help you today?
 
 You: quit
 Chatbot: Goodbye!
-
+---
 ⚠️ Notes
 
 Never commit your .env file to GitHub
